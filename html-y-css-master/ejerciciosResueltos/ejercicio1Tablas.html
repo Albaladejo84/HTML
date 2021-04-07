@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercico 1 Tablas</title>
+    <link rel="stylesheet" type="text/css" href="ejercicio2ClaseTablas.css" />
+    <link rel="shortcut icon" href="http://www.ejercito.mde.es/resources/img/favicon.ico" />
+</head>
+<style>
+    table {
+        width: 100%
+    }
+
+    table,
+    td {
+        border-collapse: collapse;
+
+        border-style: none
+    }
+
+    thead {
+        text-align: center;
+
+        background-color: beige
+    }
+
+    tbody {
+        background-color: azure;
+
+        text-align: center
+    }
+
+    tfoot {
+        background-color: bisque;
+
+        text-align: center
+    }
+
+    .opciones {
+
+        background-color: #eee;
+
+        width: 20%
+    }
+
+    .primera {
+
+        width: 80%;
+
+        font-size: 1.2em;
+
+        color: darkred;
+
+        font-weight: bold
+    }
+
+    h2 {
+        color: blue
+    }
+
+    ul {
+        list-style-type: none;
+
+        font-weight: bold
+    }
+
+    a:link {
+        text-decoration: none
+    }
+</style>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <a href="http://www.ejercito.mde.es/inicio.html">
+                        <picture>
+                            <source media=" (max-width: 1000px)" />
+
+                            <img src="http://www.ejercito.mde.es/resources/img/ejercito_de_tierra.png" alt="logo ET" />
+                        </picture>
+                    </a>
+                </td>
+                <td colspan="3" class="primera">
+                    <p>
+                        Curso de Diplomado en Informática Militar
+                    </p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">
+                    <h2>Asignaturas del Curso</h2>
+                </td>
+                <td class="opciones">Recursos</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Html</li>
+                        <li>POO</li>
+                        <li>Javascript</li>
+                        <li>Angular</li>
+                    </ul>
+                </td>
+                <td class="opciones">Blogs</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h2>Visitas a realizar a lo largo del curso</h2>
+                </td>
+                <td class="opciones">Foros</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>CESTIC</li>
+                        <li>Amazon</li>
+                        <li>Meetup</li>
+                    </ul>
+                </td>
+                <td class="opciones">Contactar</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <p>
+                        <a href="http://www.ejercito.mde.es/aviso-legal.html" target="_blank">
+                            <b>Aviso Legal </b></a>
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

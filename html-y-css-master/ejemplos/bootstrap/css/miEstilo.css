@@ -1,0 +1,22 @@
+.grid{
+    background: red; 
+    border-color:yellow;
+    border-width: 2px;
+    border-style: dashed;
+    min-height: 100vh; 
+}
+.gridRow{
+    background: blue; 
+    border-color:green;
+    border-width: 2px;
+    border-style: dashed;
+    min-height: 50vh; 
+}
+
+.gridCol{
+    background: white; 
+    border-color:black;
+    border-width: 2px;
+    border-style: dashed;
+    min-height: 50vh; 
+}

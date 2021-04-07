@@ -1,0 +1,49 @@
+/* RESPUESTA A NUMERO 11 */
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+:root {
+  /* RESPUESTA A NUMERO 12 */
+  --akaya: "Akaya Telivigala", cursive;
+   /* RESPUESTA A NUMERO 20 */
+  --miColor: rgb(148, 235, 78);
+}
+
+/* RESPUESTA A NUMERO 13 */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  /* RESPUESTA A NUMERO 14 */
+  font-family: var(--akaya) !important;
+}
+
+/* RESPUESTA A NUMERO 16 */
+.hola {
+  padding-top: 5em;
+}
+
+/* RESPUESTA A NUMERO 15 */
+.desc > p::after {
+  content: "HOLA";
+  color: red;
+}
+
+/* RESPUESTA A NUMERO 21 */
+.col-lg-3 + .col-lg-3 + .col-lg-3 > img[src$="2.jpg"] {
+  border-top: 5px dashed var(--miColor);
+}
+
+/* RESPUESTA A NUMERO 24.2 */
+.btn-link .fab {
+  color: whitesmoke;
+}
+
+/* RESPUESTA A NUMERO 24.3 */
+.btn-link .fab:hover {
+  color: var(--miColor);
+}

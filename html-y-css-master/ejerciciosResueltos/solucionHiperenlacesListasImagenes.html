@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carros de combate">
+  <meta name="author" content="kzurro">
+  <title>C. Combate</title>
+  <style type="text/css">
+    body {
+      width: 1500px;
+    }
+
+    h3 {
+      position: fixed;
+    }
+
+    #caja {
+      position: absolute;
+      height: 100px;
+      border: 1px solid black;
+      background-color: yellow;
+      top: 70px
+    }
+
+    #textos {
+      position: fixed;
+      width: 300px;
+      height: 40px;
+      border: 1px solid black;
+      z-index: -1;
+      right: 50px;
+      top: 100px;
+    }
+  </style>
+  <script type="text/javascript">
+    var estado = "parar" // Estado inicial del cuadrado: sin mover
+    function info(elEvento) {
+      var evento = elEvento || window.event; //obtener objeto event
+      var despX = document.documentElement.scrollLeft; //desplazamiento de la pagiina al hacer scroll
+      var despY = document.documentElement.scrollTop;
+      var ventanaX = evento.clientX; //coordenadas de la ventana
+      var ventanaY = evento.clientY;
+      var paginaX = ventanaX + despX; //coordenadas de la página
+      var paginaY = ventanaY + despY;
+      var pantallaX = evento.screenX //coordenadas de la pantalla
+      var pantallaY = evento.screenY
+      caja1 = document.getElementById("caja") //posición del cuadrado
+      posx = paginaX - 50
+      posy = paginaY - 50
+      if (estado == "mover") { //desplazamiento del cuadrado
+        caja1.style.left = posx + "px"
+        caja1.style.top = posy + "px"
+      }
+      texto = document.getElementById("posicion") //escribir coordenadas de la página
+      texto.innerHTML = "Coordenadas de la página: " + paginaX + "px, " + paginaY + "px."
+      texto2 = document.getElementById("ventana") //escribir coordenadas de la ventana
+      texto2.innerHTML = "Coordenadas de la ventana:  " + ventanaX + "px, " + ventanaY + "px."
+      texto3 = document.getElementById("pantalla") //escribir coordenadas de la pantalla
+      texto3.innerHTML = "Coordenadas de la pantalla: " + pantallaX + "px, " + pantallaY + "px."
+      texto4 = document.getElementById("accion") //e3scribir estado del cuadrado
+      texto4.innerHTML = "Movimiento del cuadrado: " + estado
+      texto5 = document.getElementById("desplaza") //scroll de la página
+      texto5.innerHTML = "Desplazamiento de la página: " + despX + ", " + despY
+    }
+    function mover(ev) { //control del movimiento del cuadrado
+      var evento2 = ev || window.event //distinguir acción del ratón
+      tipo = evento2.type
+      if (tipo == "click") { //coger el cuadrado (un  click)
+        estado = "mover"
+      }
+      else if (tipo == "dblclick") { //soltar el cuadrado (doble click)
+        estado = "parar"
+      }
+    }
+    window.onload = function () { //provocar los eventos				
+      document.body.onmousemove = info
+      document.getElementById("caja").onclick = mover;
+      document.getElementById("caja").ondblclick = mover;
+    }
+  </script>
+</head>
+
+<body>
+  <header> <a href="https://es.wikipedia.org/wiki/Carro_de_combate" target="_blank">
+      <h1>Carros de combate</h1>
+    </a></header>
+  <main>
+    <section>
+      <div>
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/M1A_Abrams_im_Taunus.jpg/220px-M1A_Abrams_im_Taunus.jpg">
+          <figcaption> Un <a href="https://es.wikipedia.org/wiki/M1_Abrams" target="_self">M1 Abrams</a>, carro de
+            combate<br>
+            principal estadounidense.</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Leopard_2_A5_der_Bundeswehr.jpg/220px-Leopard_2_A5_der_Bundeswehr.jpg">
+          <figcaption>Carros de combate <strong>Leopard 2A5 </strong> <br>del Heer.</figcaption>
+        </figure>
+
+      </div>
+    </section>
+    <section>
+      <h2>Clasificación</h2>
+      <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis atque accusantium
+        consequuntur, dolorum autem repudiandae nesciunt distinctio cum, excepturi aliquam nam nostrum minima
+        consectetur doloribus, nulla earum voluptates facere?
+      </article>
+      <ol>
+        <li>Peso</li>
+
+        <ol start="6" reversed type="a">
+          <li>Ligero</li>
+          <li>Medio</li>
+          <li>Pesado</li>
+        </ol>
+        <br>
+        <br>
+
+        <li>Tripulación</li>
+        <ul>
+          <li>2 pax</li>
+          <li>3 pax</li>
+          <li>4 pax</li>
+          <li>5 pax</li>
+        </ul>
+
+
+      </ol>
+    </section>
+    <hr>
+    <section>
+      <h2>Paises Sudamericanos donde se encuentran</h2>
+      <div>
+        <img src="https://www.aulaclic.es/html/graficos/mapa_sudamerica.jpg" alt="" width="360" height="500"
+          usemap="#sudamerica" />
+        <map name="sudamerica" id="sudanerica">
+          <area shape="poly" coords="233,306,108,110,327,142" href="https://es.wikipedia.org/wiki/Brasil"
+            target="_blank" title="Brasil" alt="Brasil" />
+          <area shape="poly" coords="168,450,130,272,197,289" href="https://es.wikipedia.org/wiki/Argentina"
+            target="_blank" title="Argentina" alt="Argentina" />
+        </map>
+      </div>
+    </section>
+  </main>
+  <br /><br /><br /><br /><br />
+  <div id="textos">
+    <p id="posicion">Coordenadas de la página: </p>
+  </div>
+</body>
+
+</html>

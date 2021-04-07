@@ -1,0 +1,83 @@
+hr {
+  margin-top: 10px;
+  border: 4px dashed rgb(145, 145, 165);
+}
+
+.caja {
+	background-color: yellow;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	margin: 50px 10px;
+}
+
+/*block: hace que el comportamiento del elemento sea como un bloque.*/
+.caja-1 {
+	background-color: red;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+  margin: 50px 10px;
+  display: block;
+}
+
+/*inline: el elemento se renderizará en línea con otros elementos.*/
+.caja-2 {
+	background-color: green;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+  margin: 50px 10px;
+  display: inline;
+}
+
+/*inline-block: el elemento tendrá un comportamiento mezcla entre los dos anteriores, que ahora voy a describir.*/
+.caja-3 {
+	background-color: blue;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+  margin: 50px 10px;
+  display: inline-block;
+}
+
+/*display:contents ==> 
+Hace que el contenedor desaparezca, haciendo que los elementos secundarios del elemento pasen al siguiente nivel en el DOM*/ 
+.caja-4 {
+  display: contents;
+  border: 1px solid red;
+  background-color: lightgrey;
+  padding: 10px;
+  width: 200px;
+}
+
+.caja-5 {
+  border: 1px solid yellow;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.caja-6 {
+  border: 1px solid red;
+  background-color: lightgrey;
+  padding: 10px;
+  width: 200px;
+}
+
+/*display Flex*/
+#main {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#main div {
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>PortaFolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assetss/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Fontawesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <!-- --- RESPUESTA A NUMERO 1.1 ---  -->
+  <link rel="stylesheet" href="./css//bootstrap.min.css">
+  <!-- Estilos propios-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+  <header>
+    <div class="container">
+      <!-- Barra de navegación más logo y menu-->
+      <div class="nav row align-items-strech justify-content-center">
+        <!-- LOGOTIPO -->
+        <div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+          <h2>Fulanito de Copas</h2>
+          <span> <i class="fa fa-dot-circle-o mx-3" aria-hidden="true"></i></span>
+          <p>Alumno DIM XLIII</p>
+        </div>
+        <!-- Menu de Navegación-->
+        <nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+          <!-- align-items-stretch: para que los tres div se repartan el espacion disponible por igual// flex-wrap: en un tamaño extra pequeño los elementos se pongan uno debajo de otro //flex-sm-nowrap: en un tamaño pequeño se pongan una al lado del otro-->
+          <a href="#" class="color-1 d-flex align-items-center">
+            <div class="d-flex flex-column text-center">
+              <!--Con Flex-Column hacemos que el  texto este arriba y el icono abajo-->
+              <span>Portafolio</span>
+              <i title="Portafolio" class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+          </a>
+          <a href="#" class="color-2 d-flex align-items-center">
+            <div class="d-flex flex-column text-center">
+              <!--Con Flex-Column hacemos que el  texto este arriba y el icono abajo-->
+              <span>Acerca de</span>
+              <i title="acerca de" class="fa fa-user" aria-hidden="true"></i>
+            </div>
+          </a>
+          <a href="#" class="color-3 d-flex align-items-center">
+            <div class="d-flex flex-column text-center">
+              <!--Con Flex-Column hacemos que el  texto este arriba y el icono abajo-->
+              <span>Mail</span>
+              <i title="mail" class="fas fa-envelope"></i></i>
+              <!--Iono fontawesome-->
+            </div>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Slider -->
+      <div class="row slider">
+        <!--slider:  para acceder al bloque slider -->
+        <div class="col">
+          <!-- porque el slider ocupa el 100% de la pantalla-->
+          <div class="carousel slide" id="slider" data-ride="carousel">
+            <!--ejemplo en apuntes:  https://git.institutomilitar.com/kzurro/html-y-css/blob/master/ejemplos/bootstrap/componentesBootstrap/carousel.html -->
+            <!-- docuemntacion bootrapt: https://getbootstrap.com/docs/4.0/components/carousel/-->
+            <!-- indicadores del slider -->
+            <ol class="carousel-indicators">
+              <li data-target="#slider" data-slide-to="0" class="active"></li>
+              <!-- TIENE QUE COINCIDIR CON EL ID DEL CONTENEDOR QUE INICIA EL SLIDER-->
+              <!-- data-slide-to="valor" sirve para indicar cual es el orden del la imagen -->
+              <!-- active para que aparezca activado el primer indicador-->
+              <li data-target="#slider" data-slide-to="1"></li>
+              <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- para poner cada una de las imagenes, active: sirve para que se muestre una imagen por defecto-->
+                <img src="./assets/img/catedral-leon1200x400.jpg" alt="Catedral de Leon" title="Pulchra Leonina"
+                  class="d-block img-fluid">
+                <!-- Para que transforme en tipo bloque la imagen y con img-fluid hacemos que se ajuste a todos los tamaños d emantalla y ocupe el 100%-->
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/garrafe1200x400.jpg" alt="Garrafe de Torio" title="Garrafe de Torío"
+                  class="d-block img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/chano1200x400.jpg" alt="Chano" title="Chano" class="d-block img-fluid">
+              </div>
+            </div>
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+              <!-- el href es el ide que hemos declarado en el slider la clase carousel-control-prev es para que aparezca la flecha indicadora data-slide="prev" según bootstrap docs-->
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <!-- segun bootstrap docs carousel-control-prev-icon es para que se vea en los libros electronicos-->
+              <!-- aria-hidden = https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute-->
+              <span class="sr-only">Anterior</span>
+              <!-- sr-only es para que se muestre el texto de este span cuando no se pueda mostrar el simbolo del anterior span-->
+            </a>
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <!-- Sección PortaFolio-->
+      <div class="row portafolio">
+        <div class="col">
+          <!--abarca el 100%-->
+          <h2 class="titulo">PortaFolio</h2>
+          <div class="row galeria justify-content-center">
+            <!-- Para  la primera fila de imagenes // justify-content-center: para que centre todas las imagenes en cualquier tipo de dispositivo-->
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-6 col-lg-4 contenedor-imagen order-7 order-sm-7 order-md-7 order-lg-1 order-xl-1">
+              <a href="#" data-toggle="modal" data-target="#modal-1">
+                <!-- modal en bootstrap docs https://getbootstrap.com/docs/4.0/components/modal/-->
+                <!-- ejemplos: https://git.institutomilitar.com/kzurro/html-y-css/blob/master/ejemplos/bootstrap/ComponentesBootstrapII/modal.html -->
+                <img src="./assets/img/Keyboard_700x393.jpg" alt="keyBoard" title="Teclado" class="img-fluid imagen">
+              </a>
+            </div>
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-12 col-lg-8 contenedor-imagen order-3 order-sm-3 order-md-3 order-lg-2 order-xl-2">
+              <a href="#">
+                <img src="./assets/img/spring-frameworks_900x232.png" alt="keyBoard" title="Teclado"
+                  class="img-fluid imagen">
+              </a>
+            </div>
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-12 col-lg-8 contenedor-imagen order-4 order-sm-4 order-md-4 order-lg-3 order-xl-3">
+              <a href="#">
+                <img src="./assets/img/angular_900x232.png" alt="Angular" title="angular" class="img-fluid imagen">
+              </a>
+            </div>
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-6 col-lg-4 contenedor-imagen order-5 order-sm-5 order-md-5 order-lg-4 order-xl-4">
+              <!-- --- RESPUESTA A NUMERO 3.1 ---  -->
+              <a href="#" data-toggle="modal" data-target="#modal-2">
+                <img src="./assets/img/Closeup_security700x393.jpg" alt="Seguridad" title="Seguridad"
+                  class="img-fluid imagen">
+              </a>
+            </div>
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-6 col-lg-4 contenedor-imagen order-6 order-sm-6 order-md-6 order-lg-5 order-xl-5">
+              <a href="#">
+                <img src="./assets/img/ordnenador700x393.jpg" alt="Ordenador" title="Ordenador"
+                  class="img-fluid imagen">
+              </a>
+            </div>
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-6 col-lg-4 contenedor-imagen order-1 order-sm-1 order-md-1 order-lg-6 order-xl-6">
+              <a href="#">
+                <img src="./assets/img/Texture_programming700x393.jpg" alt="Programación" title="Programación"
+                  class="img-fluid imagen">
+              </a>
+            </div>
+            <!-- --- RESPUESTA A NUMERO 3.3 ---  -->
+            <div class="col-6 col-lg-4 contenedor-imagen order-2 order-sm-2 order-md-2 order-lg-7 order-xl-7">
+              <a href="#">
+                <img src="./assets/img/Globe_Laptops700x393.jpg" alt="Global" title="Global" class="img-fluid imagen">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sección acerca de...-->
+      <div class="row acerca-de align-items-center">
+        <!--align-items-center: para alinear todos los elementos al centro -->
+        <!-- --- RESPUESTA A NUMERO 4.1.2 ---  -->
+        <div class="col-12 col-lg-4 foto">
+          <!-- --- RESPUESTA A NUMERO 4.1.1 ---  -->
+          <img src="./assets/img/perfil.jpg" alt="fotoPerfil" title="foto Perfil" class="rounded-circle img-fluid">
+          <!-- rounded-circle: para que la imagen este redondeadas // img-fluid: para que la imagen ocupe el 100% del espacio disponible -->
+          <p class="nombre">Fulanito de Copas</p>
+        </div>
+        <!-- --- RESPUESTA A NUMERO 4.1.2 ---  -->
+        <div class="col-12 col-lg-8 info">
+          <h2 class="titulo">Acerca de </h2>
+          <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptates perferendis
+            debitis possimus architecto vitae culpa ratione excepturi!
+          </p>
+          <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptates perferendis
+            debitis possimus architecto vitae culpa ratione excepturi!
+          </p>
+          <p class="label">HTML</p>
+          <div class="progress">
+            <div class="progress-bar">
+              95%
+            </div>
+          </div>
+          <p class="label">CSS</p>
+          <div class="progress">
+            <div class="progress-bar">
+              100%
+            </div>
+          </div>
+          <p class="label">JAVASCRIPT</p>
+          <div class="progress">
+            <div class="progress-bar">
+              85%
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACTO -->
+      <div class="row contacto justify-content-center">
+        <!-- justify-content-center: Alínea el formulario al centro -->
+        <div class="col-12 col-lg-8">
+          <h2 class="titulo">Contacto</h2>
+          <form action="" class="formulario">
+            <div class="form-group row">
+              <div class="col-12 col-md-6">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" minlength="3">
+                <!-- --- RESPUESTA A NUMERO 5.2 ---  -->
+              </div>
+              <div class="col-12 col-md-6">
+                <input type="email" name="correo" id="correo" placeholder="Correo" required>
+                <!-- --- RESPUESTA A NUMERO 5.1 ---  -->
+              </div>
+            </div>
+            <textarea name="textArea" id="textArea" placeholder="Mensaje"></textarea>
+            <div class="form-group d-flex justify-content-center">
+              <button type="reset" class="btn btn-outline-success"> Enviar </button>
+              <!-- --- RESPUESTA A NUMERO 5.3 ---  -->
+              <!-- --- RESPUESTA A NUMERO 5.5 ---  -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- --- RESPUESTA A NUMERO 6 --- -->
+  <hr>
+
+  <footer class="footer bg-light mb-2">
+    <div class="container text-center">
+      <div class="row justify-content-around">
+        <a class="btn btn-link" href="https://twitter.com/tweeter?lang=es" rel="noopener" target="_blank">
+          <i class="fab fa-twitter fa-3x"></i>
+        </a>
+        <!-- --- RESPUESTA A NUMERO 7.2 --- -->
+        <a class="btn btn-link" href="./web.html" rel="noopener" target="_blank">
+          <!-- --- RESPUESTA A NUMERO 7.2, 7.3 --- -->
+          <i class="fa  fa-file-code-o fa-3x" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-link" href="https://git.institutomilitar.com/" aria-hidden="true" target="_blank">
+          <!-- --- RESPUESTA A NUMERO 7.1 --- -->
+          <i class="fab fa-gitlab fa-3x" data-toggle="tooltip" data-placement="top" title="InstitutoMilitar"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- modal -->
+  <div class="modal fade" id="modal-1">
+    <!-- debe ser igual que el data target de los elementos anchor-->
+    <div class="modal-dialog d-flex justify-content-center align-items-center">
+      <!-- d-flex para decir que este contenedor se comporte como flex-blox; con modal-dialog-centered centramos el modal en el centro de la imagen -->
+      <div class="modal-content">
+        <img src="./assets/img/Keyboard_700x393.jpg" alt="teclado" title="Teclado" id="imagen-modal">
+      </div>
+    </div>
+  </div>
+  <!-- --- RESPUESTA A NUMERO 3.1 ---  -->
+  <div class="modal fade" id="modal-2">
+    <!-- --- RESPUESTA A NUMERO 3.2 ---  -->
+    <div class="modal-dialog d-flex justify-content-center align-items-center modal-dialog-centered">
+      <div class="modal-content">
+        <img src="./assets/img/Closeup_security700x393.jpg" alt="Seguridad" title="Seguridad" id="imagen-modal">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery primero, then Popper.js, último Bootstrap JS -->
+  <script src="js/jquery-3.3.1.min.js"></script> <!-- --- RESPUESTA A NUMERO 1.1 ---  -->
+  <script src="./js/popper.min.js"></script> <!-- --- RESPUESTA A NUMERO 1.1 ---  -->
+  <script src="./js/bootstrap.min.js"></script> <!-- --- RESPUESTA A NUMERO 1.1 ---  -->
+  <!-- --- RESPUESTA A NUMERO 7.1 --- -->
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    })
+  </script>
+</body>
+
+</html>

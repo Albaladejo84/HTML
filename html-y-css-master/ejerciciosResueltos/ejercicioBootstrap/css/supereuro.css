@@ -1,0 +1,139 @@
+:root {
+  --colorNavbar: #5b9bd5;
+  --colorBorde: red;
+}
+
+#modalLogin .fa-money-bill-alt {
+  height: 43px;
+  line-height: 0.7;
+}
+
+.navegacion {
+  background-color: var(--colorNavbar);
+  font-size: 1.5rem;
+}
+
+#logo * {
+  color: white;
+  text-decoration: none;
+}
+
+.supereuro,
+.destacado {
+  font-weight: bold;
+}
+
+#logo .fa-money-bill-alt,
+#modalLogin .fa-money-bill-alt {
+  color: green;
+  background-color: rgb(200, 248, 160);
+}
+
+.navbar .fa-shopping-cart {
+  color: rgb(73, 56, 7);
+}
+
+body {
+  /* Para ver comportamiento de ancho de cabecera*/
+  min-width: 580px;
+}
+
+.cabecera {
+  /* afecta aqui para no romper la primera linea 
+    margin: 3rem calc(-5rem + 10vw);
+    width: 520px;*/
+  width: 520px;
+  margin: 3rem auto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.destacado {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.reglaMain {
+  border-color: var(--colorNavbar);
+  width: 90%;
+}
+
+.familiaProducto {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.miniaturaProducto {
+  background-color: lightgray;
+  padding: 1.5rem;
+}
+
+/* Descomentar para que todas las miniaturas tengan la misma altura */
+.miniaturaProducto {
+  height: 100%;
+}
+.miniaturaProducto img {
+  height: 12rem;
+}
+
+.card-body p {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.miniaturaProducto .card-text {
+  font-style: italic;
+}
+
+.precio {
+  font-size: 1.8rem !important;
+  font-weight: bold;
+}
+
+#modalLogin .modal-header {
+  background-color: #70ad47;
+}
+
+.modal-title {
+  font-size: 2rem;
+}
+
+.modal-footer button {
+  font-size: 1.4rem;
+  margin: 0 2rem !important;
+}
+
+.form-control {
+  border-color: var(--colorBorde);
+  border-width: 3px;
+}
+
+/* Usadas en pagina de producto */
+.productoMain {
+  margin-top: 3rem;
+}
+
+.descripcionMain {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.descripcionMain .row {
+  margin-bottom: 2rem;
+}
+
+.nombreProducto {
+  font-size: 3rem;
+}
+
+.cantidad label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#cantidad {
+  width: 5rem;
+  font-size: 1.4rem;
+}

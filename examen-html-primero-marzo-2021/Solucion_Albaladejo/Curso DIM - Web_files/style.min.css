@@ -1,0 +1,195 @@
+.texto_actual{font-size:medium;}.btn-success,.btn-success.active,.btn-success.disabled,.btn-success:active,.btn-success:hover,.btn-success[disabled]{background-color:#57a900}.site-logo a:hover,.site-title a:hover{opacity:.8;transition:opacity .15s ease-in-out}body{padding-bottom:40px}@media (min-width:1200px){.container{width:1040px;padding-right:0;padding-left:0}ul.nav li.dropdown:hover>ul.dropdown-menu{display:block}}.navbar-collapse{max-height:none}.btn-success{background-image:-moz-linear-gradient(top,#70d900,#57a900);background-image:-ms-linear-gradient(top,#70d900,#57a900);background-image:-webkit-gradient(linear,0 0,0 100%,from(#70d900),to(#57a900));background-image:-webkit-linear-gradient(top,#70d900,#57a900);background-image:-o-linear-gradient(top,#70d900,#57a900);background-image:linear-gradient(top,#70d900,#57a900);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0)}.btn-download{width:100%}.downloads p{font-size:70%;font-weight:700}.downloads p.small{font-size:50%}div.container a.brand{background:url(../img/zf2-logo.png) 0 10px no-repeat;margin-left:0;padding:8px 20px 12px 40px}.jumbotron-calendar{padding:30px;margin-bottom:30px;font-size:14px;font-weight:200;line-height:1.5;color:inherit}.bm-calendar{text-transform:uppercase;text-align:center;margin:0 auto 30px}.bm-calendar-month-title{background-color:#CA0022;color:#fff;text-align:center}.bm-calendar th{width:50px;text-align:center}.bm-calendar td{cursor:default}.bm-calendar td a{cursor:pointer}.bm-calendar td:hover{font-weight:700}td.bm-calendar-empty:hover{border:0!important}tbody .bm-calendar-weekend{color:#CA0022;padding:0}.bm-calendar-state-autonomico,.bm-calendar-state-nolectivo,.bm-calendar-state-lectivo,.bm-calendar-state-local,.bm-calendar-state-nacional,.bm-calendar-state-semana-santa{color:#fff!important;padding:0}.bm-calendar-state-autonomico a,.bm-calendar-state-nolectivo a,.bm-calendar-state-lectivo a,.bm-calendar-state-local a,.bm-calendar-state-nacional a,.bm-calendar-state-semana-santa a{color:#fff!important;}.bm-calendar-weekend~.bm-calendar-empty{display:none}.bm-calendar-weekend~td.bm-calendar-empty:hover{display:none;border:0!important}.bm-calendar-state-autonomico{background-color:#57a900}.bm-calendar-state-nolectivo{background-color:#8904B1}.bm-calendar-state-lectivo{background-color:#DF7401}.bm-calendar-state-local{background-color:#03D}.bm-calendar-state-nacional{background-color:#CA0022;color:#fff}.bm-calendar-state-semana-santa{background-color:#772148;}#page{width:1440px;margin:0 auto;border:1px solid #eee}.page-header{margin:0 0 20px;text-align:center}.navbar{position:relative;min-height:0;margin-bottom:0;border:0}@media screen and (min-width:960px){.header-side .site-logo,.header-side .site-title{display:inline-block}}.site-header{border-bottom:solid 1px #e4e4e4;margin-bottom:56px}.site-top{margin-bottom:32px;margin-top:24px;padding:0 50px}.site-logo,.site-title{margin-bottom:0;margin-top:0;vertical-align:middle}.site-logo{line-height:1}.site-title:hover{color:#111}.site-title{font-weight:600;color: black;letter-spacing:0;font-size:50px;line-height:1.2}.site-title a,.site-title a:hover{color:#111}.site-description{color:#777;font-size:93.8%;line-height:1.5}.header-image{max-height:480px;overflow:hidden}.header-image img{width:100%;display:block}.site-top-table-der{text-align:right}@media screen and (max-width:783px){.site-title{color: black;font-size:25px}.site-description{font-size:75.8%}.site-top-table-der{text-align:center;margin-top:10px;height:0;width:0;visibility:hidden}.listadonumeros td,h5{font-size:11px}}@media screen and (min-width:960px){.footer-widget,.site-bottom,.site-content,.site-top{text-align:left}.site-top-table{display:table;float:left}.site-top-table-der{display:table;float:right;padding-top:20px}.site-branding{display:table-cell;vertical-align:middle}.site-logo,.site-title{color: black;display:inline-block}.site-logo{padding-bottom:0;padding-right:8px;padding-top:8px}.header-navigation{display:table-cell;margin-top:0;text-align:right;vertical-align:middle}.content-area{border-right:solid 1px #e4e4e4;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;margin-right:3%;padding-right:3%;width:67%}.sidebar-area{border-top:none;float:right;padding-top:0;width:30%}}.clear:after,.comment-content:after,.comment-navigation:after,.entry-content:after,.footer-widget:after,.paging-navigation:after,.post-navigation:after,.site-bottom:after,.site-content:after,.site-footer:after,.site-header:after,.site-top:after{clear:both}.clear:after,.clear:before,.comment-content:after,.comment-content:before,.comment-navigation:after,.comment-navigation:before,.entry-content:after,.entry-content:before,.footer-widget:after,.footer-widget:before,.paging-navigation:after,.paging-navigation:before,.post-navigation:after,.post-navigation:before,.site-bottom:after,.site-bottom:before,.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before,.site-top:after,.site-top:before{content:'';display:table}@media print{.jumbotron-calendar{padding:20px;margin-bottom:15px;font-size:12px;font-weight:200;line-height:1.2;color:inherit}.bm-calendar{text-transform:uppercase;text-align:center;margin-bottom:30px}.bm-calendar-month-title{background-color:#CA0022;color:#fff;text-align:center}.bm-calendar th{width:45px;text-align:center}tbody .bm-calendar-weekend{color:#fff;background-color:#CA0022;border-radius:20px;border:5px solid #eee;padding:0}}#skyscraper_der,#skyscraper_izq{z-index:200;width:120px;height:1px;position:relative;top:0}#cab{width:100%;margin:0 auto;background-color:#FAFAFA;overflow:hidden}#megabanner{margin:0 auto;}#boton_local2{visibility:hidden;width:0;min-height:0}#robapaginas,#robapaginas_dos{margin-bottom:40px}#skyscraper_der{right:-140px;float:right}#skyscraper_izq{left:-140px;float:left;z-index:-5;}@media screen and (max-width:783px){#boton_local2{width:320px;min-height:45px;margin:0 auto;visibility:visible}#megabanner{margin:0 auto;}#CabeceraCorporativa{width:100%;min-height:46px;margin:0 auto;background-color:#FAFAFA;overflow:hidden}#skyscraper_der,#skyscraper_izq{width:0;height:0;visibility:hidden;overflow:hidden}}.festivos ul li{font-size: 17px; line-height: initial;margin-bottom: 5%;}.no-padding-left-right{padding-left:0!important;padding-right:0!important}.padding-left-60{padding-left:60px!important}.dropdown-submenu{position:relative}.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px;-moz-border-radius:0 6px 6px;border-radius:0 6px 6px}.dropdown-submenu:hover>.dropdown-menu{display:block}.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent transparent transparent #ccc;border-style:solid;border-width:5px 0 5px 5px;margin-top:5px;margin-right:-10px}.dropdown-submenu:hover>a:after{border-left-color:#fff}.dropdown-submenu.pull-left{float:none}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px}.margin-top1{margin-top:20px}.list-group-item.active,.list-group-item.active:focus,.list-group-item.active:hover{color:#FFF;text-shadow:0 -1px 0 rgba(0,0,0,.25);background-color:#E31616;background-image:-moz-linear-gradient(top,#CA0022,#E31616);background-image:-webkit-gradient(linear,0 0,0 100%,from(#CA0022),to(#E31616));background-image:-webkit-linear-gradient(top,#CA0022,#E31616);background-image:-o-linear-gradient(top,#CA0022,#E31616);background-image:linear-gradient(to bottom,#CA0022,#E31616);background-repeat:repeat-x;border-color:#E31616;border-color:rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CA0022', endColorstr='#E31616', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);font-weight:700}.bm-calendar-state-luna-0,.bm-calendar-state-luna-1,.bm-calendar-state-luna-10,.bm-calendar-state-luna-11,.bm-calendar-state-luna-12,.bm-calendar-state-luna-13,.bm-calendar-state-luna-15,.bm-calendar-state-luna-16,.bm-calendar-state-luna-17,.bm-calendar-state-luna-18,.bm-calendar-state-luna-19,.bm-calendar-state-luna-2,.bm-calendar-state-luna-20,.bm-calendar-state-luna-21,.bm-calendar-state-luna-22,.bm-calendar-state-luna-23,.bm-calendar-state-luna-24,.bm-calendar-state-luna-25,.bm-calendar-state-luna-26,.bm-calendar-state-luna-27,.bm-calendar-state-luna-28,.bm-calendar-state-luna-29,.bm-calendar-state-luna-3,.bm-calendar-state-luna-4,.bm-calendar-state-luna-5,.bm-calendar-state-luna-6,.bm-calendar-state-luna-7,.bm-calendar-state-luna-8,.bm-calendar-state-luna-9{background-size:100% 100%;background-repeat:no-repeat}.list-group-item.active a,.list-group-item.active:focus a,.list-group-item.active:hover a{color:#fff}.fase-lunar table{width:100%}.fase-lunar table td{width:14.28571428571429%!important;text-align:left;vertical-align:top;color:#fff}.fase-lunar table td:before{content:"";float:left;padding-top:100%}.bm-calendar-highlight{text-decoration:underline;font-size:110%}.bm-calendar-state-luna-0{background-image:url(../img/luna-0.png)}.bm-calendar-state-luna-1{background-image:url(../img/luna-1.png)}.bm-calendar-state-luna-2{background-image:url(../img/luna-2.png)}.bm-calendar-state-luna-3{background-image:url(../img/luna-3.png)}.bm-calendar-state-luna-4{background-image:url(../img/luna-4.png)}.bm-calendar-state-luna-5{background-image:url(../img/luna-5.png)}.bm-calendar-state-luna-6{background-image:url(../img/luna-6.png)}.bm-calendar-state-luna-7{background-image:url(../img/luna-7.png)}.bm-calendar-state-luna-8{background-image:url(../img/luna-8.png)}.bm-calendar-state-luna-9{background-image:url(../img/luna-9.png)}.bm-calendar-state-luna-10{background-image:url(../img/luna-10.png)}.bm-calendar-state-luna-11{background-image:url(../img/luna-11.png)}.bm-calendar-state-luna-12{background-image:url(../img/luna-12.png)}.bm-calendar-state-luna-13{background-image:url(../img/luna-13.png)}.bm-calendar-state-luna-14{background-image:url(../img/luna-14.png);background-size:100% 100%;background-repeat:no-repeat}.bm-calendar-state-luna-15{background-image:url(../img/luna-15.png)}.bm-calendar-state-luna-16{background-image:url(../img/luna-16.png)}.bm-calendar-state-luna-17{background-image:url(../img/luna-17.png)}.bm-calendar-state-luna-18{background-image:url(../img/luna-18.png)}.bm-calendar-state-luna-19{background-image:url(../img/luna-19.png)}.bm-calendar-state-luna-20{background-image:url(../img/luna-20.png)}.bm-calendar-state-luna-21{background-image:url(../img/luna-21.png)}.bm-calendar-state-luna-22{background-image:url(../img/luna-22.png)}.bm-calendar-state-luna-23{background-image:url(../img/luna-23.png)}.bm-calendar-state-luna-24{background-image:url(../img/luna-24.png)}.bm-calendar-state-luna-25{background-image:url(../img/luna-25.png)}.bm-calendar-state-luna-26{background-image:url(../img/luna-26.png)}.bm-calendar-state-luna-27{background-image:url(../img/luna-27.png)}.bm-calendar-state-luna-28{background-image:url(../img/luna-28.png)}.bm-calendar-state-luna-29{background-image:url(../img/luna-29.png)}#semana-santa .bm-calendar-month-title, .semana-santa{background-color:#772148}.text-semana-santa{color:#772148}.panel-semana-santa{border-color:#772148}.panel-semana-santa>.panel-heading{color:#fff;background-color:#772148;border-color:#772148}.panel-semana-santa>.panel-heading+.panel-collapse .panel-body{border-top-color:#772148}.panel-semana-santa>.panel-footer+.panel-collapse .panel-body{border-bottom-color:#772148}#fase{text-align:center}#fase img{height:50%;width:50%}.panel-luna{background-color:#0c203b}.panel-luna>.panel-heading{color:#fff}.icono-luna{height:20px;width:20px;margin-right:10px;float:right}.text-fase-lunar{margin-left:10px}.table-hover>tbody>tr:hover{font-weight:700}#semana-santa table{height: 200px;width: 250px;}.widget-form {font-size: 12px;}a:hover.list-group-item {background-color: #ddd;}.w980{width:980px;min-height:90px;visibility:visible;margin:0 auto 0 auto;}.w320{visibility: hidden; width:0px; min-height:0px;}@media screen and (max-width: 783px) {.w320 {width:320px; min-height:45px; margin:0 auto 0 auto; visibility: visible;}.w980 {visibility: hidden !important; width:0px; height:0px; min-height:0px; overflow:hidden;}} .texto_ofertas{overflow: hidden; position: relative;} .fa-facebook {background: #3B5998;color: white;}.redes-sociales {padding: 5px;font-size: 25px;width: 35px;text-align: center;text-decoration: none;margin: 5px 4px;} .redes-sociales:hover {opacity: 0.7; color: white; text-decoration: none;} .fa-twitter {background: #55ACEE;color: white;} .social_media{float:right;} .fa-google {background: #dd4b39;color: white;} .ofertas {font-size: medium; font-weight: bold;} .ofertas li{line-height: initial; margin-bottom:3%;} .titulo-ofertas{margin-top:-2%; margin-bottom:4%;} .titulo-festivos{margin-bottom:5%;} #siteModal img{width: 100%; margin-bottom: 2%;} #siteModal p{text-align: center; font-size: large; font-weight: bold; } #btn-inscribete-calendar{ font-weight: bold; width: 100%;} .subtitulo{font-size: large; padding-right:10%;} .formulario-inscripcion{padding-right:10%;}  .container{z-index: 100;} #btn-inscribete{display:block; width: 40%; margin-right:auto; margin-left: auto; font-size: large;}  @media only screen and (max-width: 768px) { .redes-sociales {padding: 5px;font-size: 35px;width: 45px;text-align: center;text-decoration: none;margin: 5px 6px;} .ofertas li{ margin-left: -7%; margin-bottom:5%;}  #btn-inscribete-calendar{margin-bottom:5%;} .pull-left{margin-bottom:5%;} }
+
+.btn-rss{
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+.btn-ver-mas{
+  padding:5px!important;
+  margin-right: 15px!important;
+  margin-bottom: 15px!important;
+  cursor: pointer;
+}
+
+.display_none{
+  display: none;
+}
+
+.display_block{
+  display: block;
+}
+
+@media (max-width: 576px){
+	.page-header{
+		font-size: 25px;
+	}
+
+  #megabanner{
+    position: fixed;
+    bottom: 5px;
+    z-index: 100;
+  }
+
+  .container{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .padding-sides{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.texto_general{
+  font-size: 16px;
+  font-weight: normal;
+  padding: 35px;
+}
+
+.content{
+  background-color: white;
+}
+
+.site-header{
+  background-color: white;
+}
+
+.bm-calendar-red{
+  background-color:#CA0022;
+  color:#fff
+}
+
+.bm-calendar-green{
+  background-color:#11ab13;
+  color:#fff
+}
+
+.bm-calendar-orange{
+  background-color:#f19f28;
+  color:#fff
+}
+
+.bm-calendar-black{
+  background-color:black;
+  color: white;
+}
+
+.bm-calendar-blue{
+  background-color:blue;
+  color: white;
+}
+
+.festivos ul{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.padding-left-30{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.collapsible {
+  border: none;
+  outline: none;
+}
+
+#text-fload {
+  overflow: hidden;
+  border-color: #9ecaed;
+  border-bottom: 5px solid rgba(255,255,255,0.5);
+  border-radius: 7px;
+  transition: max-height 0.2s ease-out;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    margin: 0 auto;
+    display: block;
+    background-image: linear-gradient(to bottom, #E31616 0,#c12e2a 100%);
+}
+
+footer{
+  padding: 30px;
+}
+
+@media (max-width: 576px){
+  #text-fload {
+    max-height: 150px;
+  }
+}
+
+@media (min-width: 577px){
+  #text-fload {
+    max-height: 100px;
+  }
+}
+
+.navbar-inverse{
+    margin-top:5px;
+}
+
+h1, h2, h3{
+    font-weight: 600;
+}
+
+.dropdown-toggle span{
+    font-weight: 600;
+}
+
+li .nav-header{
+    font-weight: 600;
+}
+
+.dropdown-menu li a{
+    font-weight: 600;
+}
+
+.padding-left-20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+
+/*************** POST RENOVACIÓN VISUAL ****************/
+
+
+.margin-bottom1{
+    margin-bottom: 20px;
+}
+
+.margin-right5{
+    margin-right:5px;
+}
+
+.titular{
+    color: #000;
+    font: 40px/45px Guardian Sans Web,sans-serif;
+    margin: 0 0 40px;
+}
+
+.input-group{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.eventos{
+    color: #333;
+    font: 17px/28px Merriweather,serif;
+    font-weight: normal;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.btn-paginador{
+    font-weight: bold !important;
+    color: black !important;  
+}

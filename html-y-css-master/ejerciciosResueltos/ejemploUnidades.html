@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidades</title>
+  <style>
+    div {
+      border: black 3px dotted;
+      width: fit-content;
+      /*para chrome*/
+      width: max-content;
+      /*para firefox*/
+      margin: 20px;
+      padding: 5px;
+
+    }
+
+    .porcentaje-1 {
+      font-size: 200%;
+    }
+
+    .porcentaje-2 {
+      font-size: 75%;
+    }
+
+    /* Unidades relativas al tamaño de la fuente*/
+    /*1em= 100%*/
+    .borde-em {
+      border: red 1em solid;
+    }
+
+    .borde.ex {
+      border: green 1ex solid;
+    }
+
+    .bode-ch {
+      border: blue 1ch solid;
+    }
+
+    /*rem corresponde a la altura total del tipo de letra*/
+    .rem-1 {
+      font-size: 1.5rem;
+    }
+
+    /*relativas respecto al tamaño de la pantalla*/
+    .pantalla-1 {
+      background-color: lightgray;
+      width: 50vw;
+      height: 50vh;
+    }
+
+    .pantalla-2 {
+      background-color: lightgray;
+      width: 50vmin;
+      height: 50vmin;
+    }
+
+    .pantalla-3 {
+      background-color: lightgray;
+      width: 50vmax;
+      height: 50vmax;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p class="porcentaje-1">Este párrafo está aumentado al 200% (el doble del tamaño normal).</p>
+  </div>
+  <div>
+    <p class="porcentaje-2">Este párrafo está aumentado al 75% (el doble del tamaño normal).</p>
+  </div>
+  <div>
+    <p class="borde-em">Este párrafo tiene un borde de 1em de grosor (la altura total del tipo de letra).</p>
+  </div>
+  <div>
+    <p class="borde-ex">Este párrafo tiene un borde de 1ex de grosor (la altura de la letra "x").</p>
+  </div>
+  <div>
+    <p class="borde-ch">Este párrafo tiene un borde de 1ch de grosor (la altura del "0").</p>
+  </div>
+  <div>
+    <p class="rem-1">Este párrafo está aumentado a 1.5rem.</p>
+  </div>
+  <div>
+    <p class="pantalla-1">Este párrafo ocupa la cuarta parte de la pantalla disponible</p>
+    <p class="pantalla-1">Este párrafo ocupa la cuarta parte de la pantalla disponible</p>
+  </div>
+  <div>
+    <p class="pantalla-2">Este párrafo cuadrado ocupa la mitad del lado más corto.</p>
+  </div>
+  <div>
+    <p class="pantalla-3">Este párrafo cuadrado ocupa la mitad del lado más largo.</p>
+  </div>
+
+
+  <a href="https://www.mclibre.org/consultar/htmlcss/css/css-distancia.html">Autor</a>-<a
+    href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia</a>
+
+</body>
+
+</html>

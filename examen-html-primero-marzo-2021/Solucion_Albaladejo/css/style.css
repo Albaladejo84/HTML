@@ -1,0 +1,354 @@
+/* RESPUESTA A NUMERO 2 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+/* RESPUERSTA A NUMERO 3 */
+:root {
+  --letra: 'Source Sans Pro', sans-serif;
+  --color: #3da5e2;
+}
+html,
+body {
+  height: 100%;
+
+}
+body {
+  background: #b8a8a8 !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+header .nav {
+  min-height: 80px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/*-- LOGOTIPO ---*/
+
+header .logo h2,
+header .logo span,
+header .logo p {
+  font-size: 16px;
+  display: inline-block; /*--para que os elementos se ponga uno al lado del otro--*/
+  margin: 0;
+}
+
+header .logo h2 {
+  font-weight: 900; /* -- el cogido de la fuente de google-- */
+  text-transform: uppercase;
+}
+
+header .logo .fa-dot-circle-o {
+  color: #bfbfbf;
+}
+
+header .logo p {
+  color: #777777;
+}
+
+/* ------ menu ------*/
+
+header .menu {
+  padding: 0;
+}
+
+header .menu a {
+  display: block; /*--- Se transforman en elementos de bloque, por lo que siempre empiezan en una nueva línea y siempre ocupan todo el espacio disponible en la línea, aunque sus contenidos no ocupen todo el sitio ---*/
+  padding: 0 30px; /*--  0 en el eje x y 30 en el eje y--*/
+  text-decoration: none;
+  color: #fff; /*--- Texto de color blanco ---*/
+}
+
+header .menu a div span {
+  font-weight: 600;
+}
+
+/*--- Para cambiar e fondo de los enlaces ---*/
+header .menu .color-1 {
+  background-color: #3da5e2;
+}
+header .menu .color-2 {
+  background-color: #005385;
+}
+header .menu .color-3 {
+  background-color: #003855;
+}
+
+/*--- hover de los enlaces ---*/
+
+header .menu .color-1:hover {
+  background: #ef1b2d;
+}
+header .menu .color-2:hover {
+  background: #bd0595;
+}
+header .menu .color-3:hover {
+  background: #064400;
+}
+
+/*--- SLIDER  ---*/
+.slider {
+  margin-bottom: 40px; /*--- Para que haya separación del slider con el main ---*/
+}
+
+.slider .col {
+  padding: 0; /*--- para que las imagenes del slider ocupen lo mismo que el ancho de la barra de navegación ---*/
+}
+
+/*--- PORTAFOLIO ---*/
+.portafolio {
+  background-color: white;
+  border-top: 5px solid #3da5e2;
+  padding: 0 20px;
+}
+
+.portafolio .titulo {
+  padding: 40px 0;
+  text-align: center;
+  color: #3da5e2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+  margin-bottom: 40px; /*--- para el espaciado de las imagenes y no se vean pegadas---*/
+  max-height: 180px; /* para cuadrar en altura todas las imagenes y no se vean la más pequeñas un poco más altas*/
+  overflow: hidden; /*---  Quiere decir que el contenido que sobre lo tiene que ocultar ---*/
+}
+/*--- Para trabajar los efectos de los enlaces de las imagenes ---*/
+.portafolio .galeria .contenedor-imagen a {
+  background-color: #3da5e2;
+  display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+  opacity: 0.3;
+}
+
+/* ACERCA DE */
+
+.acerca-de {
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.acerca-de .foto {
+  text-align: center;
+}
+
+.acerca-de .foto img {
+  margin-bottom: 30px;
+}
+
+.acerca-de .info .titulo {
+  color: #005385;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen {
+  letter-spacing: 1px;
+}
+
+.acerca-de .info .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #005385;
+  margin-bottom: 10px;
+}
+
+/*---  Barra de progreso ---*/
+.progress > .progress-bar {
+  width: 95%;
+}
+
+.progress ~ .progress > .progress-bar {
+  width: 100%;
+}
+
+
+
+/*--- CONTACTO ---*/
+
+.contacto {
+  padding: 40px 0;
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+  margin-bottom: 40px;
+}
+
+.contacto .titulo {
+  color: #f811ed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contacto .form-group {
+  margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  padding: 15px;
+  border: none;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+}
+
+.formulario textarea {
+  height: 50px;
+  min-height: 150px;
+  max-height: 250px;
+}
+
+/*--- FOOTER ---*/
+footer a.btn,
+footer a.btn:hover {
+  color: inherit;
+}
+
+footer a.btn-link {
+  font-size: 1.6rem;
+}
+
+.btn-link .fa-twitter:hover {
+  color: #009deb;
+}
+
+.btn-link .fa-gitlab:hover {
+  color: #e24329;
+}
+
+.btn-link .fa-whatsapp:hover {
+  color: #1ada4a;
+}
+
+.btn-link .fa-facebook:hover {
+  color: #2f1be2;
+}
+/*--- PARA QUE LOS ICONOS AL DISMINUIR LA PANTALLA SE PONGAN DEBAJO BIEN---*/
+/*--- MEDIAQUERIES--- */
+
+/* Dispositivo pantalla xl */
+@media screen and (max-width: 1199px) {
+} /*--- no se utiliza. A efectos didacticos para ver los disponibles --- */
+
+/* Dispositivo pantalla lg */
+@media screen and (max-width: 991px) {
+  .logo {
+    height: 76px; /* para que no esten pegados los iconos al nombre */
+  }
+
+  .menu {
+    min-height: 76px; /* para que no esten pegados los iconos al nombre */
+  }
+
+  .menu a {
+    /*--- para que en esta dimensión de pantalla ocupen los enlaces y los icones el 100% ---*/
+    width: 100%;
+  }
+
+  .menu a div {
+    /*--- para que en esta dimensión de pantalla ocupen los enlaces y los icones el 100% y el div ocupe el 100% y podamos alinenear al centro---*/
+    width: 100%;
+    margin: 10px 0; /*-- para que el div de los iconos essea un poco más ancho y el icono no esté tan pegado--*/
+  }
+
+  .modal .modal-dialog {
+    width: 90%;
+  }
+
+  .modal .modal-dialog .modal-content img {
+    width: 100%;
+  }
+}
+
+/* Dispositivo pantalla md */
+@media screen and (max-width: 767px) {
+} /*--- no se utiliza. A efectos didacticos para ver los disponibles --- */
+
+/* Dispositivo pantalla sm */
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 0; /*-- para eliminar el margen en las pantallas más pequeñas--*/
+  }
+
+  header .logo h2,
+  header .logo p {
+    /*-- para que la letra el margen en las pantallas más pequeñas--*/
+    font-size: 12px;
+  }
+
+  header div nav a div {
+    /*-- para que el div de los iconos essea un poco más ancho y el icono no esté tan pegado--*/
+    margin: 10px 0;
+  }
+}
+
+/*--- El tamaño extrapequeño se añade porque es el que está puesto por defeto ---*/
+
+/* RESPUESTA A NUMERO 2 */
+i[class="fa fa-envelope"]{
+  color: var(--color);
+}
+
+/* RESPUESTA A NUMERO 4.1. */
+img[src="./assets/img/perfil.jpg"] {
+  border-width: 5px;
+  border-color: var(--color);
+  border-style: dotted;
+}
+@media screen and (min-width: 1200px){
+  img[src="./assets/img/perfil.jpg"] {
+    
+  }
+}
+/* RESPUESTA A NUMERO 4.2 */
+.nombre{
+  color: var(--color);
+  font-family: var(--letra);
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* RESPUESTA A NUMERO 4.3 */
+.progress{
+  background-color: var(--color);
+  border-radius: 0%;
+  height: 25px;
+  margin-bottom: 15px;
+}
+.progress-bar{
+  background-color: rgb(255,0,0);
+  padding-left: 6px;
+  text-align: left;
+}
+
+/* RESPUESTA A NUMERO 5.3 */
+.enviar{
+  opacity: 1;
+}
+.enviar:hover{
+  background-color: green;
+  color: white;
+}
+
+/* RESPUESTA A NUMERO 5.4 */
+#textArea::placeholder { color: var(--color)} 
+
+/* RESPUESTA A 6 */
+.separador {
+  height: 1px;
+  border-style: dotted;
+  border-color: var(--color);
+  width: 75%;
+}

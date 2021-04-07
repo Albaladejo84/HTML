@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.6">
+  <title>Practica DIM42</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/album/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css "
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="../css/index.css" rel="stylesheet">
+  <!--FAVICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="../asset/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../asset/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../asset/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../asset/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../asset/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../asset/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../asset/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../asset/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../asset/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../asset/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../asset/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../asset/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://dim.institutomilitar.com/" target="_blank"><img class="logo" src="../asset/img/DIM.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01"
+        aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Formulario.html">Solicitud</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Logout</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Cocina</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Recetas</a>
+              <a class="dropdown-item" href="#">Opinar</a>
+              <a class="dropdown-item" href="#">Trucos de Cocina</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </nav>
+
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>Las Recetas más Vistas</h1>
+        <p class="lead text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab esse excepturi
+          temporibus mollitia dolores architecto natus quasi adipisci tempora voluptas vel voluptate modi, explicabo
+          necessitatibus sunt, possimus eaque!</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Mejores Opiniones</a>
+          <a href="#" class="btn btn-secondary my-2">Más Descargadas</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="https://www.directoalpaladar.com/videos-recetas/hojaldres-crema-almendra-asi-se-elabora-poste-facil-video-incluido"
+                target="_blank"><img src="../asset/img/hojaldres.jpg" class="card-img-top" title="Hojadre de Crema"
+                  alt="Hojadre de Crema"></a>
+              <div class="card-body">
+                <p class="card-text">Hojaldres de crema de almendra, el postre más fácil (receta con vídeo incluido)</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#hojaldres">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                      data-target="#fm-modal"><i class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/RosconDeReyes.jpg" title="Roscon de Reyes"
+                alt="Roscon de Reyes">
+              <div class="card-body">
+                <p class="card-text">Roscón de Reyes de un solo levado: esta sí que es la receta más rápida y fácil</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/flanJapones.jpg" title="Flan Japones" alt="Flan Japones">
+              <div class="card-body">
+                <p class="card-text">Cómo hacer flan japonés con bizcocho Castella.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/pechugasDePollo.jpg" title="Pechugas De Pollo"
+                alt="Pechugas De Pollo">
+              <div class="card-body">
+                <p class="card-text">El secreto para cocinar las pechugas de pollo al horno y que queden súper jugosas,
+                  receta con vídeo incluido</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/terneraConMostaza.jpg" title="Ternera Con Mostaza"
+                alt="Ternera Con Mostaza">
+              <div class="card-body">
+                <p class="card-text">Estofado fácil de ternera con mostaza en olla de cocción lenta: una de nuestras
+                  recetas favoritas para Crock-Pot</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/MagretDePato.jpg" title="Magret De Pato" alt="Magret De Pato">
+              <div class="card-body">
+                <p class="card-text">Magret de pato con verduras y salsa de naranja, la receta más fácil y rápida para
+                  el menú de Nochevieja o Año Nuevo</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/Rodaballo.jpg" title="Rodaballo" alt="Rodaballo">
+              <div class="card-body">
+                <p class="card-text">Rodaballo al horno de Dani García, receta fácil y deliciosa para triunfar (con
+                  vídeo incluido)</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/Vieiras.jpg" title="Vieiras" alt="Vieiras">
+              <div class="card-body">
+                <p class="card-text">Receta de vieiras a la Parmesana, el aperitivo de Navidad más fácil y sabroso listo
+                  en 15 minutos</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="../asset/img/Tartar.jpg" title="Tartar" alt="Tartar">
+              </svg>
+              <div class="card-body">
+                <p class="card-text">Receta de tartar de atún rojo, el delicioso entrante que puedes tener listo en
+                  menos de 30 minutos</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Receta</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><i
+                        class="fab fa-youtube fa-2x"></i></button>
+                  </div>
+                  <small class="text-muted">
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <hr class="w-75 bg-secondary">
+  <footer class="text-muted">
+    <div class="container">
+      <div class="row justify-content-center">
+        <a class="mx-5 btn btn-link" href="https://es-es.facebook.com/" aria-hidden="true" target="_blank">
+          <i class="fab fa-facebook fa-2x" title="facebook"></i>
+        </a>
+        <a class="mx-5 btn btn-link" href="https://github.com/" aria-hidden="true" target="_blank">
+          <i class="fab fa-github-square fa-2x" title="github"></i>
+        </a>
+        <a class="mx-5 btn btn-link" href="https://git.institutomilitar.com/" aria-hidden="true" target="_blank">
+          <i class="fab fa-gitlab fa-2x" title="gitlab"></i>
+        </a>
+        <a class="mx-5 btn btn-link"
+          href="mailto:direcciondeemail@prueba.org?subject=Tema&cc=otroemail@pruebas.org&body=Cuerpo del mensaje"
+          aria-hidden="true" target="_blank">
+          <i class="far fa-envelope fa-2x" title="mail"></i>
+        </a>
+      </div>
+      <div class="row justify-content-center my-2">
+        <a class="legal" href="http://www.ejercito.mde.es/accesibilidad.html">Accesibilidad</a><span> | </span>
+        <a class="legal" href="http://www.ejercito.mde.es/aviso-legal.html">Aviso Legal</a><span> | </span>
+        <a class="legal" href="http://www.ejercito.mde.es/aviso-legal.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+  <!-- MODAL HOJALDRES-->
+  <div class="modal fade" id="hojaldres" tabindex="-1" role="dialog" aria-labelledby="hojaldres" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">PREPARACIÓN</h5>
+          <button class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <p>Separamos las claras (que guardamos para otra elaboración) de las yemas. De estas últimas reservamos
+                  una. Las otras tres las trituramos junto con las almendras, el azúcar, la mantequilla fundida, el
+                  aroma de almendras y el ron hasta obtener una pasta homogénea. Reservamos.</p>
+              </div>
+              <div class="col-12 col-sm-6">
+                <p>Cortamos 36 círculos de hojaldre con un cortapastas de 6,5-7 cm y retiramos el interior de 12 de
+                  ellos con un cortapastas más pequeño, haciendo aros. Colocamos 12 de los círculos en dos bandejas de
+                  horno cubiertas con papel sulfurizado. Pincelamos los bordes con la yema que tenemos reservada.
+                  Cubrimos con los 12 aros de hojaldre y pincelamos de nuevo. Rellenamos el interior con un poco de
+                  crema de almendras y tapamos con los últimos 12 círculos de hojaldre.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-success">Aceptar</button>
+          <button class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL VIDEO-->
+  <div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Video Hojaldres con Crema de Almendra</h5>
+          <button class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Bphb1A6wKXA"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+</body>
+</html>

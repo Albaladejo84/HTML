@@ -1,0 +1,52 @@
+body{
+  margin: 25px;
+}
+
+p {
+ font-size: 20px;
+ border: black 2px dotted;
+  margin: 20px;
+  padding: 20px;
+  width: fit-content;
+}
+
+.clase-1{
+  color: magenta;
+}
+
+.clase-2 {
+  background-color: blue;
+}
+
+.clase-3 {
+  text-align:end;
+}
+
+.clase-4 {
+  color: red;
+  vertical-align:sub;
+}
+
+.clase-5 {
+  text-indent: 58px;
+}
+
+.clase-6 {
+  letter-spacing: 10px;
+}
+
+.clase-7 {
+  word-spacing: 50px;
+}
+
+.clase-8 {
+  text-decoration:underline red dotted 5px;
+}
+
+.clase-9 {
+  text-shadow: red 6px 6px 2px; ;
+}
+
+.clase-10 {
+  white-space:nowrap;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets//android-chrome-512x512.png">
+    <meta name="description" content="FORMULARIOS HTML y CSS">
+    <meta name="author" content="kzurro">
+    <meta name="generator" content="vs" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css "
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<style>
+    fieldset{
+        width: 40em;
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <h1>ALTA NUEVO USUARIO</h1>
+    </header>
+    <nav><a href="https://ejercito.defensa.gob.es/" target="_blank"><img src="./assets/img/aquiTuLogo.png"
+                width="50px;" title="Ejercito de tierra"></a> <a
+            href="https://web.institutomilitar.com/" target="_blank">InstitutoMilitar</a> | <a
+            href="https://web.institutomilitar.com/semanal.html" target="_blank">Programa</a> | <a
+            href="https://16khs695mehu6grk1ykq.institutomilitar.com/" target="_blank">Recursos</a> | <a
+            href="https://dim.institutomilitar.com/" target="_blank">Sandstorm</a> | <a
+            href="https://git.institutomilitar.com/dashboard/projects/starred" target="_blank">Git</a>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <main>
+        <form method="POST">
+            <div>
+                <label for="empleo">Empleo</label>
+                <select name="select" id="empleo">
+                    <option value="CTE">Comandante</option>
+                    <option value="CAP" selected>Capitán</option>
+                    <option value="TTE">Teniente</option>
+                </select>
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Información Personal</legend>
+                Nombre: <input name='nombre' type='text' tabindex='2'>
+                Apellidos: <input name='apellidos' type='text' tabindex='1' autofocus>
+            </fieldset>
+
+            <fieldset>
+                <legend>Edad</legend>
+                <input type='checkbox' tabindex='4' name='edad' value='20-39'> 20-39
+                <input type='checkbox' tabindex='3' name='edad' value='40-59'> 40-59
+                <input type='checkbox' tabindex='5' name='edad' value='60-79'> 60-79
+            </fieldset>
+            <br>
+            <div>
+                <label for="email">E-mail</label>
+                <input name="email" id="email" type="email" min="3" placeholder="intro tu mail" required>
+            </div>
+            <br>
+            <br>
+            <div>
+
+                <label for="telf">Teléfono</label>
+                <input name="telefono" id="telf" type="tel" minlength="9" maxlength="9" placeholder="Intro telf" required>
+
+            </div>
+            <br>
+            <br>
+            <button widht="15px;" type="submit">Enviar <i class="fas fa-bug"></i></button>
+
+        </form>
+    </main>
+</body>
+
+</html>

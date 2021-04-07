@@ -1,0 +1,30 @@
+/* SELECTOR TIPO ELEMENTO*/
+
+p {
+  color: red;
+} 
+
+/* SELECTOR TIPO UNIVERSAL*/
+
+* {
+  font-size: 25px;
+}
+
+/* SELECTOR TIPO CLASE*/
+.caja{
+  border: blue 3px solid;
+  margin: 10px;
+  padding: 10px;
+  width: 52em;
+}
+
+/* SELECTOR TIPO ID*/
+#identificador{
+  text-decoration: underline wavy green 3px;
+}
+
+/* SELECTOR TIPO ATRIBUTO*/
+a[href="https://web.institutomilitar.com/"]{
+  font-style: italic;
+  color:violet;
+}

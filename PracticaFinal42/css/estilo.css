@@ -1,0 +1,57 @@
+header{
+    background-color: rgb(55, 54, 63);
+}
+img[src="../asset/img/DIM.png"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 12vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 12vh;
+}
+
+.parrafo1{
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-size:2vw;
+    justify-content:center
+}
+.card{
+    width:auto;
+}
+.btn-light{
+    border-radius: 3px;
+    border-width: 1px;
+    border-color:rgb(73, 73, 73);
+}
+.estrellas{
+    position: relative;
+    float: right;
+}
+
+input[type = "radio"]{
+     display:none;
+    }
+input[type="radio"]:checked ~ label{color:black}
+
+label{
+    color: grey;
+}
+label:hover{
+    color: black;
+}
+
+@media screen and (max-width: 600px ) {
+    .parrafo1{
+        font-size: 3vw;
+    }
+}
+.icofooter{
+    margin: 4vw;
+}
+.icofooter:hover{
+    color: aqua;
+}

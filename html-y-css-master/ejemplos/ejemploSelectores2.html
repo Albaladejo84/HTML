@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo Sectores CSS</title>
+  <style>
+    div {
+      border: red 3px solid;
+      margin: 10px;
+      padding: 10px;
+      width:fit-content;
+    }
+
+    /*Selector de descendientes: E F*/
+    div p {
+      color: red;
+    }
+
+    /*Selector de descendientes: E F*/
+    div li p {
+      color: blue;
+    }
+
+    /*Selector de hijos: E > F*/
+    aside > div {
+      color: green;
+    }
+
+    /*Selector de hijos: E > F*/
+    span>.azul {
+      color: blue
+    }
+
+    /*Selector de consecutivos: E + F*/
+    span+span {
+      color: #1E90FF;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Selector de descendientes: E F-->
+  <div>
+    <p class="azul">Esto es un párrafo &lt;p&gt;.</p>
+
+    <ul>
+      <li>Esto es una lista
+        <p>Esto es un párrafo &lt;p&gt; dentro de una lista</p>
+      </li>
+      <li>Otro item de una lista
+        <p>Esto es un párrafo &lt;p&gt; dentro de una lista</p>
+      </li>
+    </ul>
+
+    <p>Esto es otro párrafo &lt;p&gt;.</p>
+
+    <address>Esto no es un párrafo &lt;p&gt;, sino una dirección &lt;address&gt;.</address>
+  </div>
+  <!--Selector de hijos: E > F-->
+  <aside>
+    <div>
+      <span>Soy de color 
+        <span class="azul">verde</span> 
+        por selector de hijos
+      </span>
+    </div>
+  </aside>
+
+  <main>
+    <div>
+      <!--Selector de consecutivos: E + F-->
+      <span>Hola Mundo</span>
+      <span>Yo soy el afectado de color azul María Cristina</span>
+    </div>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+/* Respuesta a 12 */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+:root {
+    --akaya : 'Akaya Telivigala', cursive;
+    --miColor : rgb(148, 235, 78);
+}
+
+html,h1,h2,h3,h4,a,p {
+    font-family: var(--akaya) !important;
+}
+/* Respuesta a 15 */
+.desc > p::after {
+    content: 'HOLA';
+    color: red;
+}
+/* Respuesta a 16 */
+.primera-card{
+    padding-top: 5em;
+}
+.modal-body {
+    text-align: center;
+}
+/* Respuesta a 25 */
+.row > .item ~ .item ~ .item > img[src = "images/team-2.jpg"] {
+    border: 0px;   
+    border-top: 5px;
+    border-style: dotted;
+    border-color: var(--miColor);
+}
+/* Respuesta a 28 */
+.fa-snapchat-ghost{
+    color: white;
+}
+.fa-snapchat-ghost:hover{
+    color: var(--miColor) !important;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+

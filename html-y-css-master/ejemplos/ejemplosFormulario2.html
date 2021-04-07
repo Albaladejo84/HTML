@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        li {
+            font-size: 25px;
+            margin-top: 75px;
+            margin-bottom: 15px;
+            ;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        form,
+        .caja {
+            border: 4px dotted #999;
+            padding: 5px;
+            border-radius: 2;
+            width: 30em;
+            margin-top: 5px;
+            -webkit-appearance: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ATRIBUTOS FORMULARIOS</h1>
+    <ul>
+        <li><code>required</code></li>
+        <div class="caja">
+            <p>Nombre: <input type="text" name="nombre" required></p>
+
+            <p>Sexo:
+                <input type="radio" name="hm" value="h" required> Hombre
+                <input type="radio" name="hm" value="m" required> Mujer
+            </p>
+        </div>
+
+
+        <li><code>placeholder</code></li>
+        <div class="caja">
+            <p>Apellidos:
+                <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos">
+            </p>
+
+        </div>
+
+
+        <li><code>maxlength y minlength</code></li>
+        <div class="caja">
+            <p>Usuario: <input type="text" name="usuario" maxlength="6"></p>
+            <p>Contraseña: <input type="password" name="password" minlength="6"></p>
+        </div>
+
+
+        <li><code>disabled</code></li>
+        <div class="caja">
+            <input type="submit" value="Enviar" disabled>
+            <input type="text" name="texto" disabled>
+
+        </div>
+
+        <li><code>readonly</code></li>
+        <div class="caja">
+            <input type="text" name="texto" value="¡A que no me cambias!" readonly>
+            <input type="text" name="texto" placeholder="¡A que no me cambias!" readonly>
+        </div>
+
+
+        <li><code>Tabinex</code></li>
+
+        <div class="caja">
+            <input type="text" name="texto1" placeholder="Texto 1" tabindex="5">
+            <input type="text" name="texto2" placeholder="Texto 2" tabindex="8">
+            <input type="text" name="texto3" placeholder="Texto 3" tabindex="7">
+            <input type="text" name="texto4" placeholder="Texto 4" tabindex="6">
+
+        </div>
+
+        <li><code>button</code></li>
+
+        <div class="caja">
+            <label>Soy un input</label><input type="button" value="Este botón no hace nada"><br>
+            <label>Soy un button</label><button type="button" style="margin-top: 10px;">
+                <img src="https://www.mclibre.org/consultar/htmlcss/html/ejemplos/formularios/cdlibre-32.png"
+                    alt="cdlibre.org" width="32" height="32" style="vertical-align: middle">
+                Este botón no hace nada
+            </button>
+        </div>
+
+
+
+        <li><code>Submit</code></li>
+
+        <div class="caja">
+            <p>Escriba algo: <input type="text" name="texto"></p>
+            <label>Soy un input</label><input type="submit" value="Enviar"><br>
+            <label style="margin-top:15px;">Soy un button</label><button type="submit" style="margin-top:15px;">
+                <img src="https://www.mclibre.org/consultar/htmlcss/html/ejemplos/formularios/send.svg" alt="imagen"
+                    width="32" height="32" style="vertical-align: middle">
+                Enviar
+            </button>
+
+        </div>
+
+        <li><code>Reset</code></li>
+        <form action="reset-input-1.html" method="get">
+            <p>Caja de texto: <input type="text" name="texto" placeholder="placeholder"></p>
+
+            <p><input type="checkbox" name="casilla"> Casilla de verificación</p>
+
+            <p><input type="radio" name="radio"> Radio 1 <input type="radio" name="radio"> Radio 2 <input type="radio"
+                    name="radio"> Radio 3</p>
+
+            <p>
+                <input type="reset" value="Borrar" title="Soy Input">
+            </p>
+        </form>
+
+        <form action="reset-input-1.html" method="get">
+            <p>Caja de texto: <input type="text" name="texto" value="Value"></p>
+
+            <p><input type="checkbox" name="casilla"> Casilla de verificación</p>
+
+            <p><input type="radio" name="radio"> Radio 1 <input type="radio" name="radio"> Radio 2 <input type="radio"
+                    name="radio"> Radio 3</p>
+
+            <p>
+                <button type="reset" title="Soy Button">
+                    <img src="https://www.mclibre.org/consultar/htmlcss/html/ejemplos/formularios/reset.svg"
+                        alt="imagen no disponible" width="32" height="32" style="vertical-align: middle">
+                    Borrar
+                </button>
+            </p>
+        </form>
+
+
+
+        <li><code>Text</code></li>
+        <form method="get">
+            <p>Escriba algo: <input min="5" type="text" name="texto" value="Escriba algo"></p>
+
+            <p><input type="submit" value="Enviar" title="Soy un Input"></p>
+        </form>
+
+
+        <li><code>Password</code></li>
+        <form method="get">
+            <p>Contraseña: <input type="password" name="contrasena"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+        <li><code>number</code></li>
+        <form action="formularios-number-6.js" method="get">
+            <p>Escriba un número cualquiera: <input type="number" name="numero" step="any"></p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+        <form action="formularios-number-4.js" method="get">
+            <p>Escriba un múltiplo de 10 y que sea >= que 100 y < 1000: <input type="number" name="numero" min=100
+                    max=1000 step="10">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+
+
+        <li><code>search</code></li>
+        <form>
+            <p>Búsqueda: <input type="search" name="busqueda" size="40"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+        <li><code>url</code></li>
+        <form>
+            <p>URL: <input type="url" name="direccion" size="40"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+
+        <li><code>email</code></li>
+        <form>
+            <p>Correo: <input type="email" name="correo" size="40"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+
+        <li><code>date</code></li>
+        <form>
+            <p>Fecha: <input type="date" name="fecha"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+
+        <li><code>month</code></li>
+        <form>
+            <p>Mes: <input type="month" name="mes"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+
+        <li><code>time</code></li>
+        <form>
+            <p>Hora: <input type="time" name="hora"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+
+        <li><code>datetime-local</code></li>
+        <form>
+            <p>Fecha y hora local: <input type="datetime-local" name="fechaHora"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+
+
+
+        <li><code>checkbox</code></li>
+        <form>
+            <p><input type="checkbox" name="casilla" value="hola"> Casilla de verificación</p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+
+
+
+        <li><code>radio</code></li>
+        <form>
+            <p>
+                <input type="radio" name="boton" value="Hombre">Hombre<br>
+                <input type="radio" name="boton" value="Mujer">Mujer
+            </p>
+            <p><input type="reset" value="Borrar"></p>
+        </form>
+
+
+
+
+        <li><code>color</code></li>
+        <form>
+            <p>Elija un color: <input type="color" name="colorElegido" value="#ff0000"></p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+
+
+
+        <li><code>range</code></li>
+        <form>
+            <p>
+                Indique su nivel (de 1 a 10, de 3 en 3):
+                <input type="range" name="rango" min="1" max="10" step="3">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+
+
+
+        <li><code>file</code></li>
+        <div class="caja"><input type="file" name="archivo"></div>
+
+
+
+        <li><code>image</code></li>
+        <form>
+            <p>Haga clic en algún punto de la imagen:
+                <input type="image" name="diana"
+                    src="https://www.mclibre.org/consultar/htmlcss/html/ejemplos/formularios/formularios-image.svg"
+                    alt="Diana" style="vertical-align: top;">
+            </p>
+        </form>
+
+
+
+
+        <li><code>hidden</code></li>
+        <form>
+            <p>
+                <input type="submit" value="Enviar">
+            <div class="caja">
+                <input type="hidden" name="nombre" value="pepito">
+            </div>
+            </p>
+        </form>
+
+
+
+
+    </ul>
+    <hr>
+    <a href="https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html#control-botones">Autor</a><a
+        href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia</a>
+</body>
+
+</html>

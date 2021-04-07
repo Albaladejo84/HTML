@@ -1,0 +1,355 @@
+/*---  RESPUESTA A NUMERO 1.2 ---*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
+
+:root {
+  --color: #3da5e2; /*---  RESPUESTA A NUMERO 1.3.1---*/
+  --letra: "Source Sans Pro", sans-serif; /*---  RESPUESTA A NUMERO 1.3.2 ---*/
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #f2f2f2 !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+header .nav {
+  min-height: 80px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/*-- LOGOTIPO ---*/
+
+header .logo h2,
+header .logo span,
+header .logo p {
+  font-size: 16px;
+  display: inline-block; /*--para que os elementos se ponga uno al lado del otro--*/
+  margin: 0;
+}
+
+header .logo h2 {
+  font-weight: 900; /* -- el cogido de la fuente de google-- */
+  text-transform: uppercase;
+}
+
+header .logo .fa-dot-circle-o {
+  color: #bfbfbf;
+}
+
+header .logo p {
+  color: #777777;
+}
+
+/* ------ menu ------*/
+
+header .menu {
+  padding: 0;
+}
+
+header .menu a {
+  display: block; /*--- Se transforman en elementos de bloque, por lo que siempre empiezan en una nueva línea y siempre ocupan todo el espacio disponible en la línea, aunque sus contenidos no ocupen todo el sitio ---*/
+  padding: 0 30px; /*--  0 en el eje x y 30 en el eje y--*/
+  text-decoration: none;
+  color: #fff; /*--- Texto de color blanco ---*/
+}
+
+header .menu a div span {
+  font-weight: 600;
+}
+
+/*--- Para cambiar e fondo de los enlaces ---*/
+header .menu .color-1 {
+  background-color: #3da5e2;
+}
+header .menu .color-2 {
+  background-color: #005385;
+}
+header .menu .color-3 {
+  background-color: #003855;
+}
+
+/*---  RESPUESTA A NUMERO 2.1 ---*/
+
+i[title="mail"] {
+  color: var(--color);
+}
+
+/*--- hover de los enlaces ---*/
+
+header .menu .color-1:hover {
+  background: #1ba0ef;
+}
+header .menu .color-2:hover {
+  background: #00426a;
+}
+header .menu .color-3:hover {
+  background: #002d44;
+}
+
+/*--- SLIDER  ---*/
+.slider {
+  margin-bottom: 40px; /*--- Para que haya separación del slider con el main ---*/
+}
+
+.slider .col {
+  padding: 0; /*--- para que las imagenes del slider ocupen lo mismo que el ancho de la barra de navegación ---*/
+}
+
+/*--- PORTAFOLIO ---*/
+.portafolio {
+  background-color: white;
+  border-top: 5px solid #3da5e2;
+  padding: 0 20px;
+}
+
+.portafolio .titulo {
+  padding: 40px 0;
+  text-align: center;
+  color: #3da5e2;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+  margin-bottom: 40px; /*--- para el espaciado de las imagenes y no se vean pegadas---*/
+  max-height: 180px; /* para cuadrar en altura todas las imagenes y no se vean la más pequeñas un poco más altas*/
+  overflow: hidden; /*---  Quiere decir que el contenido que sobre lo tiene que ocultar ---*/
+}
+/*--- Para trabajar los efectos de los enlaces de las imagenes ---*/
+.portafolio .galeria .contenedor-imagen a {
+  background-color: #3da5e2;
+  display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+  opacity: 0.3;
+}
+
+/*--- Para imagenes de los modales ---*/
+
+/* --- RESPUESTA A NUMERO 3.1 ---*/
+.portafolio .modal-dialog {
+  margin: 0px auto;
+  height: 100%;
+  max-width: 1000px;
+}
+
+/*--- RESPUESTA A NUMERO 3.1 ---*/
+.portafolio .modal-content {
+  width: auto;
+}
+/* ACERCA DE */
+
+.acerca-de {
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.acerca-de .foto {
+  text-align: center;
+}
+
+.acerca-de .foto img {
+  margin-bottom: 30px;
+}
+
+img[alt="fotoPerfil"] {
+  /*--- RESPUESTA A NUMERO 4.1.1 ---*/
+  border: 5px dotted;
+  color: var(--color);
+}
+
+.acerca-de .foto .nombre {
+  color: var(--color); /*--- RESPUESTA A NUMERO 4.2.1 ---*/
+  font-family: var(--letra); /*--- RESPUESTA A NUMERO 4.2.2 ---*/
+  font-weight: 300; /*--- RESPUESTA A NUMERO 4.2.3 ---*/
+  font-size: 18px; /*--- RESPUESTA A NUMERO 4.2.4 ---*/
+  letter-spacing: 2px; /*--- RESPUESTA A NUMERO 4.2.5 ---*/
+}
+
+.acerca-de .info .titulo {
+  color: #005385;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen {
+  letter-spacing: 1px;
+}
+
+.acerca-de .info .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #005385;
+  margin-bottom: 10px;
+}
+
+/*---  Barra de progreso ---*/
+.progress > .progress-bar {
+  width: 95%;
+}
+
+.progress ~ .progress > .progress-bar {
+  width: 100%;
+}
+
+.progress ~ .progress ~ .progress > .progress-bar {
+  width: 85%;
+}
+
+.acerca-de .info .progress {
+  background: var(--color); /*--- RESPUESTA A NUMERO 4.3.1 ---*/
+  border-radius: 0; /*--- RESPUESTA A NUMERO 4.3.2 ---*/
+  margin-bottom: 15px; /*--- RESPUESTA A NUMERO 4.3.4 ---*/
+  height: 25px; /*--- RESPUESTA A NUMERO 4.3.3 ---*/
+}
+
+.acerca-de .info .progress .progress-bar {
+  background: rgb(255, 0, 0); /*--- RESPUESTA A NUMERO 4.3.5 ---*/
+  line-height: 25px; /*--- RESPUESTA A NUMERO 4.3.6 ---*/
+  text-align: left; /*--- RESPUESTA A NUMERO 4.3.7 ---*/
+  padding-left: 20px; /*--- RESPUESTA A NUMERO 4.3.7 ---*/
+}
+
+/*--- CONTACTO ---*/
+
+.contacto {
+  padding: 40px 0;
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+  margin-bottom: 40px;
+}
+
+.contacto .titulo {
+  color: #003855;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contacto .form-group {
+  margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  padding: 15px;
+  border: none;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 30px;
+}
+
+.formulario textarea {
+  height: 150px;
+  min-height: 150px;
+  max-height: 250px;
+}
+
+textarea::-webkit-input-placeholder {
+  color: var(--color); /*--- RESPUESTA A NUMERO 5.4 ---*/
+}
+
+hr {
+  border: 1px dotted var(--color); /*--- RESPUESTA A NUMERO 6.1, 6.2, 6.3 ---*/
+  width: 75%; /*--- RESPUESTA A NUMERO 6.4 ---*/
+}
+
+/*--- FOOTER ---*/
+footer a.btn,
+footer a.btn:hover {
+  color: inherit;
+}
+
+footer a.btn-link {
+  font-size: 1.6rem;
+}
+
+.btn-link .fa-twitter:hover {
+  color: #009deb;
+}
+
+.btn-link .fa-gitlab:hover {
+  color: #e24329;
+}
+
+/*--- PARA QUE LOS ICONOS AL DISMINUIR LA PANTALLA SE PONGAN DEBAJO BIEN---*/
+/*--- MEDIAQUERIES--- */
+
+/* Dispositivo pantalla xl */
+@media screen and (max-width: 1199px) {
+} /*--- no se utiliza. A efectos didacticos para ver los disponibles --- */
+
+/* Dispositivo pantalla lg */
+@media screen and (max-width: 991px) {
+  .logo {
+    height: 76px; /* para que no esten pegados los iconos al nombre */
+  }
+
+  .menu {
+    min-height: 76px; /* para que no esten pegados los iconos al nombre */
+  }
+
+  .menu a {
+    /*--- para que en esta dimensión de pantalla ocupen los enlaces y los icones el 100% ---*/
+    width: 100%;
+  }
+
+  .menu a div {
+    /*--- para que en esta dimensión de pantalla ocupen los enlaces y los icones el 100% y el div ocupe el 100% y podamos alinenear al centro---*/
+    width: 100%;
+    margin: 10px 0; /*-- para que el div de los iconos essea un poco más ancho y el icono no esté tan pegado--*/
+  }
+  /*--- PARA HACERLO CON CSS EL ORDEN DE LOS LAS IMAGENES DEL MAIN HAY QUE DESCOMENTAR ESTE BLOQUE */
+  /*.portafolio .galeria .contenedor-imagen:nth-child(1) {order:1;}
+	.portafolio .galeria .contenedor-imagen:nth-child(2) {order:7;}
+	.portafolio .galeria .contenedor-imagen:nth-child(3) {order:3;}
+	.portafolio .galeria .contenedor-imagen:nth-child(4) {order:4;}
+	.portafolio .galeria .contenedor-imagen:nth-child(5) {order:5;}
+	.portafolio .galeria .contenedor-imagen:nth-child(6) {order:6;}
+	.portafolio .galeria .contenedor-imagen:nth-child(7) {order:1;}*/
+
+  .modal .modal-dialog {
+    width: 90%;
+  }
+
+  .modal .modal-dialog .modal-content img {
+    width: 100%;
+  }
+}
+
+/* Dispositivo pantalla md */
+@media screen and (max-width: 767px) {
+} /*--- no se utiliza. A efectos didacticos para ver los disponibles --- */
+
+/* Dispositivo pantalla sm */
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 0; /*-- para eliminar el margen en las pantallas más pequeñas--*/
+  }
+
+  header .logo h2,
+  header .logo p {
+    /*-- para que la letra el margen en las pantallas más pequeñas--*/
+    font-size: 12px;
+  }
+
+  header div nav a div {
+    /*-- para que el div de los iconos essea un poco más ancho y el icono no esté tan pegado--*/
+    margin: 10px 0;
+  }
+}
+
+/*--- El tamaño extrapequeño se añade porque es el que está puesto por defeto ---*/

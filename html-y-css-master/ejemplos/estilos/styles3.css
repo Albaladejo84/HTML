@@ -1,0 +1,73 @@
+div {
+  border: black 2px dotted;
+  margin: 20px;
+  padding: 20px;
+  width: fit-content;
+}
+
+/*:first-child*/
+div p:first-child {
+  color: red;
+}
+
+/*:first-child*/
+div p:first-child i:first-child {
+  color: blue !important;
+}
+
+/*:link y :visited*/
+div > a:link {
+  background-color: black;
+  color: white;
+}
+div > a:visited {
+  background-color: coral;
+  color: green;
+}
+/*:hover*/
+.enlace > a:hover {
+  background-color: red;
+  color: yellow !important;
+}
+
+/*:active*/
+a[href="https://16khs695mehu6grk1ykq.institutomilitar.com/"]:active
+{
+  font-size: 35px;
+  color: yellow;
+  background-color: blue;
+}
+/*:focus ==> chrome no lo soporta*/
+#formulario > input:focus {
+  border: red 2px dotted !important;
+  padding: 2px;
+}
+
+/*pseudo-elementos ::first-line*/
+.primera > p::first-line {
+  text-transform: uppercase;
+  background-color: yellow;
+}
+/*pseudo-elementos ::first-letter*/
+.primeraLetra::first-letter {
+  background-color: pink;
+  color: red;
+  float: initial;
+  font-family: monospace;
+  font-size: 300%;
+}
+
+/*pseudo-elementos ::before*/
+.aviso > p::before {
+  content: "Aviso:";
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*pseudo-elementos ::after*/
+.aviso > p::after {
+  content: "horas";
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+}

@@ -1,0 +1,105 @@
+@import url('http://fontlibrary.org/face/pecita');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+:root{
+  --pecita:'PecitaBook';
+  --china:'Long Cang', cursive;
+}
+
+/*para hecer el recuadro de los div*/
+div {
+  border: black 2px dotted;
+  margin: 20px;
+  padding: 20px;
+  width: fit-content;
+}
+span {
+margin: 25px;
+}
+
+/*font-family*/
+.clase-1 {
+  font-family: cursive;
+}
+
+/*font-size*/
+.clase-2 {
+  font-size: xx-large;
+}
+
+/*font-weight*/
+.clase-3 {
+  font-weight:bold;
+}
+
+/*font-style*/
+.clase-4 {
+  font-style:italic;
+}
+
+/*font-variant*/
+.clase-5 {
+  font-variant:small-caps;
+}
+
+/*font-kerning*/
+.clase-6 {
+  font-kerning:auto;
+}
+
+/*font-variant-ligatures*/
+.clase-7 {
+  font-family:var(--pecita);
+  font-variant-ligatures:normal;
+  font-size: 25px;
+}
+
+.letra {
+  font-family:var(--pecita);
+  font-variant-ligatures:none;
+  font-size: 25px;
+}
+
+/*font-variant-numeric*/
+.clase-8 {
+font-variant-numeric:oldstyle-nums ;
+}  
+
+/*font-variant-position no soportado por chrome*/
+.clase-9 {
+  font-variant-position:super;
+}
+
+/*font-variant-east-asian para apreciarlo es necesario escribir en caracteres asiaticos*/
+.clase-10 {
+  font-family:var(--china);
+  font-variant-east-asian:proportional-width;
+}
+
+  /*font-feature-setting*/
+.clase-11 {
+    font-feature-settings: "frac";
+}
+
+/*font-feature-setting*/
+.clase-12 {
+  font-synthesis:weight;
+}
+
+/*font-feature-size-adjust*/
+.clase-13 { 
+  font-size: 10vh;
+  font-size-adjust:0.01;
+}
+.clase-14 { 
+  font-size: 10vh;
+}
+
+/*font-stretch*/
+.clase-15 { 
+  font-stretch: ultra-condensed;
+}
+
+.letra-2 {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+}

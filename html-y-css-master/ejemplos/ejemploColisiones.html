@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colisiones</title>
+  <style>
+    p {
+      font-style: oblique;
+    }
+
+    .rojo {
+      color: red;
+    }
+
+    .verde {
+      color: green;
+      font-weight: bold;
+    }
+
+    .azul {
+      color: blue !important;
+    }
+
+    .gris {
+      color: grey;
+    }
+
+    #identificador {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Encabezamiento Normal</h1>
+  <p>Solo estoy oblicuo</p>
+  <p class="verde rojo"> Texto con dos colores verde y rojo</p>
+  <p class="gris"> Texto solo con selector gris</p>
+  <p class="gris" id="identificador">Texto en gris y con id en negita</p>
+  <p style="font-style: normal;">Texto con atributo estilo y fuente normal</p>
+  <p class="rojo azul">Texto con selector rojo y azul con !important</p>
+
+
+</body>
+
+</html>

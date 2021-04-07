@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo CSS</title>
+  <link type="text/css" rel="stylesheet" href="./estilos/styles3.css">
+</head>
+
+<body>
+  <!--:first-child-->
+  <div>
+    <p>Lorem ipsum dolor sit <i>amet</i> consectetur <i>adipisicing</i> elit.</p>
+    <p>Lorem ipsum dolor, sit <i>amet</i> consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit <i>amet</i> consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor, sit <i>amet</i> consectetur adipisicing elit.</p>
+  </div>
+  <div>
+    <!--:link y :visited-->
+    <a href="http://web.institutomilitar.com" target="_blank" rel="noopener noreferrer">institutomilitar</a>
+  </div>
+  <div class="enlace">
+    <!--:hover-->
+    <a href="http://web.institutomilitar.com/semanal.html" target="_blank"
+      rel="noopener noreferrer">institutomilitar</a>
+
+    <p>Lorem, ipsum dolor sit <a href="https://16khs695mehu6grk1ykq.institutomilitar.com/" target="_blank"
+        rel="noopener noreferrer">amet consectetur</a> adipisicing elit.</p>
+  </div>
+
+  <div id="formulario">
+    <!--:focus ==> chrome no lo soporta-->
+    <input type="text" style="width: 25em;">
+  </div>
+  <!--pseudo-elementos ::first-line*/-->
+  <div class="primera">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga error, dolor doloribus consequuntur illo aut
+      repellat facilis blanditiis quae, excepturi eius vel ad hic necessitatibus? Nobis incidunt quam aliquid quisquam
+      est nam, aut quasi odio asperiores fuga sint nesciunt molestiae eos, facilis, labore repudiandae? Fuga quisquam
+      ipsam alias corporis totam! Commodi atque at beatae saepe ad id accusantium, consequuntur rerum autem! Recusandae
+      quia nostrum dolorum distinctio blanditiis, earum quaerat modi provident! Deserunt quo voluptatem consequuntur
+      mollitia, modi distinctio explicabo inventore, magnam maiores corporis similique amet id, sit dicta! Assumenda
+      harum at numquam aliquid fugiat recusandae voluptas, laborum impedit expedita reprehenderit?</p>
+    <!--pseudo-elementos ::first-letter*/-->
+
+
+  </div>
+  <!--pseudo-elementos ::first-letter-->
+  <div>
+    <p class="primeraLetra">
+      Hola mundo
+    </p>
+  </div>
+  <!--pseudo-elementos ::after-->
+  <!--pseudo-elementos ::before-->
+  <div class="aviso">
+    <p> Hay que dormir 8 </p>
+  </div>
+
+</body>
+
+</html>

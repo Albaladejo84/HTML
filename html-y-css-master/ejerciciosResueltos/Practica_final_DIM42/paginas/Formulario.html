@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Practica final Asignatura HTML DIM 42">
+    <meta name="author" content="kzurro">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Practica DIM42</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/checkout/">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css "
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="../css/formulario.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+    <!--FAVICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="../asset/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../asset/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../asset/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../asset/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../asset/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../asset/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../asset/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../asset/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../asset/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../asset/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../asset/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../asset/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="../asset/img/DIM.png" alt="DIM">
+            <h2>Formulario de Alta</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vitae provident labore illum
+                sequi deleniti dolorum facilis ipsum! Porro, quis sit! Ad numquam distinctio rem fugit dicta quisquam
+                minima eum expedita saepe?</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 order-md-2 mb-4">
+                <img class="img-circle foto" src="../asset/img/ET.png">
+            </div>
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Datos Personales</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName">Nombre</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Nombre" value=""
+                                required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName">Apellidos</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Apellidos" value=""
+                                required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="username">NickName</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="username" placeholder="Nickname" required>
+
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Email <span class="text-muted">(Opcional)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address">Dirección</label>
+                        <input type="text" class="form-control" id="address" placeholder="C/ mi Calle 1" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address2">Escalera/Piso/Letra <span class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="address2" placeholder="B/2º/G">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-5 mb-3">
+                            <label for="country">Pais</label>
+                            <select class="custom-select d-block w-100" id="country" required>
+                                <option value="">Elige...</option>
+                                <option>España</option>
+                                <option>Portugal</option>
+                                <option>Francia</option>
+                                <option>Tunez</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="state">Provincia</label>
+                            <select class="custom-select d-block w-100" id="state" required>
+                                <option value="">Elige...</option>
+                                <option>Madrid</option>
+                                <option>León</option>
+                                <option>Cuenca</option>
+                                <option>Sevilla</option>
+                                <option>Badajoz</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="zip">Codigo Postal</label>
+                            <input type="text" class="form-control" id="zip" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <a type="button" class="form-control btn-lg btn-primary text-center" href="./login.html">Enviar Solicitud</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr class="w-100 bg-secondary">
+        <footer class="text-muted">
+            <div class="container">
+              <div class="row justify-content-center">
+                <a class="mx-5 btn btn-link" href="https://es-es.facebook.com/" aria-hidden="true" target="_blank">
+                  <i class="fab fa-facebook fa-2x" title="facebook"></i>
+                </a>
+                <a class="mx-5 btn btn-link" href="https://github.com/" aria-hidden="true" target="_blank">
+                  <i class="fab fa-github-square fa-2x" title="github"></i>
+                </a>
+                <a class="mx-5 btn btn-link" href="https://git.institutomilitar.com/" aria-hidden="true" target="_blank">
+                  <i class="fab fa-gitlab fa-2x" title="gitlab"></i>
+                </a>
+                <a class="mx-5 btn btn-link"
+                  href="mailto:direcciondeemail@prueba.org?subject=Tema&cc=otroemail@pruebas.org&body=Cuerpo del mensaje"
+                  aria-hidden="true" target="_blank">
+                  <i class="far fa-envelope fa-2x" title="mail"></i>
+                </a>
+              </div>
+              <div class="row justify-content-center my-2">
+                <a class="legal" href="http://www.ejercito.mde.es/accesibilidad.html">Accesibilidad</a><span> | </span>
+                <a class="legal" href="http://www.ejercito.mde.es/aviso-legal.html">Aviso Legal</a><span> | </span>
+                <a class="legal" href="http://www.ejercito.mde.es/aviso-legal.html">Cookies</a>
+              </div>
+            </div>
+          </footer>
+    </div>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+div {
+  border: black 1px solid;
+}
+.porcentaje-1 {
+  font-size: 200%;
+}
+.porcentaje-2 {
+  font-size: 75%;
+}
+/* Unidades relativas al tamaño de la fuente*/
+/*1em= 100%*/
+.borde-em {
+  border: red 1em solid;
+}
+.borde.ex {
+  border: green 1ex solid;
+}
+.bode-ch {
+  border: blue 1ch solid;
+}
+
+/*rem corresponde a la altura total del tipo de letra*/
+.rem-1 {
+  font-size: 1.5rem;
+}
+
+/*relativas respecto al tamaño de la pantalla*/
+.pantalla-1 {
+  background-color: lightgray;
+  width: 50vw;
+  height: 50vh;
+}
+.pantalla-2 {
+  background-color: lightgray;
+  width: 50vmin;
+  height: 50vmin;
+}
+.pantalla-3 {
+  background-color: lightgray;
+  width: 50vmax;
+  height: 50vmax;
+}

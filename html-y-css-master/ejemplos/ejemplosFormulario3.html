@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios Otras etiquetas</title>
+  <style>
+    .caja {
+      border: 4px dotted #999;
+      padding: 5px;
+      border-radius: 2;
+      width: 30em;
+      margin-top: 5px;
+      -webkit-appearance: none;
+    }
+
+    li {
+      margin-top: 30px;
+    }
+
+    fieldset {
+      width: 25em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li>Textarea</li>
+    <div class="caja">
+      <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+    </div>
+<form action="">
+    <li>Select</li>
+    <div class="caja">
+      <p>Elija una opción:
+        <select name="menu">
+          <option>Uno</option>
+          <option value="2">Dos</option>
+          <option value="three">Tres</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+    </div>
+    
+    <div class="caja">
+
+      <p>Elija una o varias opciones:
+        <select name="menu[]" size="5" multiple="" style="vertical-align: top;">
+          <option value="1">Uno</option>
+          <option value="2">Dos</option>
+          <option value="3">Tres</option>
+          <option value="4">Cuatro</option>
+          <option value="5">Cinco</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+    </div>
+
+    <li>fieldset</li>
+    <div class="caja">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <p>Nombre: <input type="text" name="nombre" size="30"></p>
+
+        <p>Edad: <input type="number" name="edad"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Cultura general</legend>
+
+        <p>Capital de Noruega:
+          <input type="radio" name="p1" value="1"> Copenhague
+          <input type="radio" name="p1" value="2"> Helsinki
+          <input type="radio" name="p1" value="3"> Oslo
+        </p>
+
+        <p>Fecha de la Revolución francesa:
+          <input type="radio" name="p2" value="1"> 1492
+          <input type="radio" name="p2" value="2"> 1789
+          <input type="radilist="listaUso" name="p2" value="3"> 1917
+        </p>
+      </fieldset>
+      <p><input type="submit" value="Enviar"> <input type="reset" value="Borrar"></p>
+    </div>
+
+    <li>datalist</li>
+    <div class="caja">
+      <p>Elegir memoria USB:<input list="listaUsb"></p>
+      <datalist id="listaUsb">
+        <option value="8">
+        <option value="16">
+        <option value="32">
+        <option value="64">
+      </datalist>
+    </div>
+
+    <li>optgroup</li>
+    <div class="caja">
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+    </div>
+
+  </ul>
+
+</body>
+
+</html>
